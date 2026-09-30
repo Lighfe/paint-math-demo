@@ -235,7 +235,7 @@ function Index() {
           <canvas
             ref={canvasRef}
             aria-label="Paint canvas"
-            className="block size-full touch-none cursor-crosshair"
+            className="block min-h-[340px] w-full touch-none cursor-crosshair sm:min-h-[500px] sm:h-full"
             onContextMenu={(event) => event.preventDefault()}
             onPointerDown={handlePointerDown}
             onPointerMove={handlePointerMove}
