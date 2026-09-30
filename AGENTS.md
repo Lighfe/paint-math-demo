@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep Gaussian sampling isolated in `src/lib/brush.ts`; canvas rendering owns all drawing and pointer behavior so brush math stays testable.
